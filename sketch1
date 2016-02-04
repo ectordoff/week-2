@@ -1,0 +1,13 @@
+int x = 1;
+
+void setup() {
+  size (400, 400);
+  background (0);
+}
+  
+void draw () {
+  while (x < 20){
+    ellipse (20*x, 20*x, 20, 20);
+    x = x + 1;
+  }
+}
