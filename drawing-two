@@ -1,0 +1,40 @@
+int x = 0;
+
+
+void setup() {
+  size (400, 400);
+  background (0);
+}
+  
+void draw () {
+  while (x < 380){
+    
+    ellipse (20+x, 20, 20, 20);
+    ellipse (20+x, 40, 20, 20);
+    ellipse (20+x, 60, 20, 20);
+    ellipse (20+x, 80, 20, 20);
+    ellipse (20+x, 100, 20, 20);
+    ellipse (20+x, 120, 20, 20);
+    ellipse (20+x, 140, 20, 20);
+    ellipse (20+x, 160, 20, 20);
+    ellipse (20+x, 180, 20, 20);
+    ellipse (20+x, 200, 20, 20);
+    ellipse (20+x, 220, 20, 20);
+    ellipse (20+x, 240, 20, 20);
+    ellipse (20+x, 260, 20, 20);
+    ellipse (20+x, 280, 20, 20);
+    ellipse (20+x, 300, 20, 20);
+    ellipse (20+x, 320, 20, 20);
+    ellipse (20+x, 340, 20, 20);
+    ellipse (20+x, 360, 20, 20);
+    ellipse (20+x, 380, 20, 20);
+
+
+
+   
+    x = x + 20;
+
+
+
+  }
+}
