@@ -1,0 +1,20 @@
+int i = 0;
+void setup() {
+
+  size (800, 400);
+   background(0);
+}
+
+void draw() {
+  stroke(0);
+  line (10*i, 10, 10*i, 400);
+   stroke(255);
+ line (10*i, mouseY, 10*i, 400);
+
+if (i*10 >= 800) {
+  i = 0;
+} else {
+    i++;
+  };
+delay(75);
+}
